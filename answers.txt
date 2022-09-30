@@ -1,0 +1,29 @@
+CMPUT 404 Lab 3 Answers
+
+1. Question 1
+-  os.environ allows us to inspect all environment variables in Python
+
+2. Question 2
+-  The 'QUERY_STRING' envrionment variable contains the query parameter data
+
+3. Question 3
+-  The 'HTTP_USER_AGENT' environment variable contains information about the user's browser
+
+4. Question 4
+-  The POSTed data comes to the CGI script through the cgi.FieldStorage() object
+ by accessing the "username" and "password" entries using the getfirst() method
+
+5. Question 5
+-  Cookies can be set from the server using the Set-Cookie HTTP header syntax
+
+6. Question 6
+-  The browser uses the HTTP header syntax cookie.get(key).value to send the cookie back,
+   where cookie is a SimpleCookie object with os.environ["HTTP_COOKIE"] as input ("HTTP_COOKIE"
+   is the environment variable containing cookies)
+
+7. Question 7
+-  Cookies help the website remember information about our visit, which makes it easier to
+   visit the site again
+
+8. Question 8
+-  https://github.com/david-parise/cgi-lab.git
